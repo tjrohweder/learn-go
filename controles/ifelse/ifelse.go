@@ -9,3 +9,8 @@ func imprimirresultado(nota float64) {
 		fmt.Println("Reprovado com nota", nota)
 	}
 }
+
+func main() {
+	imprimirresultado(7.3)
+	imprimirresultado(5.1)
+}
